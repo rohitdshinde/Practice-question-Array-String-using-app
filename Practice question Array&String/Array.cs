@@ -87,11 +87,28 @@ namespace ConsoleApp1
             Console.WriteLine($"Largest number{largerst}");
             Console.WriteLine($"lowest number{lowest}");
         }
+        void Q3()
+        {
+            Console.WriteLine("Enter a string");
+            string strr= Console.ReadLine();
+
+            string[] words = strr.Split(' ');
+
+            Console.WriteLine("Reverse a string:");
+            for(int i=words.Length-1;i>=0;i--)
+            {
+                Console.WriteLine(words[i]+"");
+            }
+            Console.ReadLine();
+
+
+        }
         static void Main(string[] args)
         {
             Array p = new Array();
-            p.Q1();
-            p.Q2();
+            // p.Q1();
+             //p.Q2();
+            p.Q3();
         }
     }
 }

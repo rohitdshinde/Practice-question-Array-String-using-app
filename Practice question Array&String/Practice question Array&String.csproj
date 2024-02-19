@@ -6,6 +6,11 @@
     <RootNamespace>Practice_question_Array_String</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>ConsoleApp1.Array</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
 
 </Project>
