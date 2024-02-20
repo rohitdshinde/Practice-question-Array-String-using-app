@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Array
+    internal class array
     {
         void Q1()
         {
@@ -105,7 +105,7 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            Array p = new Array();
+            array p = new array();
             // p.Q1();
              //p.Q2();
             p.Q3();
